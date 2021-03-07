@@ -5,6 +5,7 @@ use std::io::{BufRead, BufReader};
 use std::path::Path;
 use std::vec::Vec;
 
+/// roll simulates a roll of a dice five times
 pub fn roll() -> Result<String, Box<dyn std::error::Error>> {
     let mut rng = rand::thread_rng();
     let mut dice_roll = String::new();
@@ -15,6 +16,7 @@ pub fn roll() -> Result<String, Box<dyn std::error::Error>> {
     Ok(dice_roll)
 }
 
+/// parse_list takes the EFF wordlist and parses the pairings of dice roll and the associated word
 pub fn parse_list<P>(filename: P) -> Result<HashMap<String, String>, Box<dyn std::error::Error>>
 where
     P: AsRef<Path>,
