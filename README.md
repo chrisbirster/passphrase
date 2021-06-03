@@ -17,3 +17,9 @@ $ cargo build
 $ cd passphrase
 $ cargo test
 ```
+
+## Run
+```
+$ cd passphrase
+$ cargo run
+```
