@@ -5,7 +5,7 @@ use std::io::{BufRead, BufReader};
 use std::path::Path;
 use std::vec::Vec;
 
-/// Roll simulates a roll of five dice
+/// roll simulates a roll of five dice
 pub fn roll() -> Result<String, Box<dyn std::error::Error>> {
     // Generate a random seed
     let mut rng = rand::thread_rng();
