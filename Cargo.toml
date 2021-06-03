@@ -1,7 +1,7 @@
 [package]
 name = "passphrase"
-version = "0.1.0"
-authors = ["Chris Birster <christopher.birster@gmail.com>"]
+version = "1.0.0"
+authors = ["Chris Birster <me@chris.website>"]
 edition = "2018"
 
 [dependencies]
