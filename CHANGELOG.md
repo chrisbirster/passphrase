@@ -1,8 +1,22 @@
-TBD
+# Changelog
 
-Passphrase unreleaed changes will go here
+## [Unreleased]
 
-0.1.0 (2021-03-07)
+Passphrase unreleased changes will go here
 
-Initial release of passphrase. A very simple dice-roll passphrase simulator.
+## [1.0.0] - 2021-06-03
 
+### Added
+
+- Added a GitHub Actions pipeline for linting/testing passphrase on various Rust
+  toolchains
+
+### Changed
+
+- Fixed typos and added comments documenting project
+
+## [0.1.0] - 2021-03-07
+
+### Added
+
+- Initial release of passphrase. A very simple dice-roll passphrase simulator.
